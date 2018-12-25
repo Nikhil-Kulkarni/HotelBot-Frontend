@@ -1,5 +1,5 @@
 .container {
-    border-bottom: 5px solid #DEE0EA;
+    border-bottom: 3px solid #DEE0EA;
     width: 400px;
 }
 
@@ -18,5 +18,5 @@
 ::placeholder {
     font-weight: bold;
     color: #DEE0EA;
-    font-size: 28px;
+    font-size: 24px;
 }

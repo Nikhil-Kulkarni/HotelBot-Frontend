@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Textbox from './components/textbox/textbox';
-import Button from './components/button/button';
+import Textbox from '../textbox/textbox';
+import Button from '../button/button';
 import './App.css';
 
 class App extends Component {

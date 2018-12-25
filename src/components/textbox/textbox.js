@@ -9,10 +9,6 @@ export default class Textbox extends Component {
         isSecure: PropTypes.bool.isRequired,
     };
 
-    componentWillMount() {
-
-    }
-
     render() {
         const {
             name,
