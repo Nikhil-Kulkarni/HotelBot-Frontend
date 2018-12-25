@@ -1,0 +1,22 @@
+.container {
+    border-bottom: 5px solid #DEE0EA;
+    width: 400px;
+}
+
+.textbox {
+    padding-top: 60px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 5px;
+    background: #FFFFFF;
+    border: 0px;
+    height: 30px;
+    width: 400px;
+    font-size: 28px;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: #DEE0EA;
+    font-size: 28px;
+}

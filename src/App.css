@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.header {
+  text-align: center;
+  color: #5E7DFC;
+  font-weight: bold;
+  font-size: 34pt;
+  padding-top: 30%;
+  padding-bottom: 30pt;
+}
+
+.content {
+  vertical-align: center;
+  display: inline-block;
+}
+
+input:focus {
+  outline: none;
+}
