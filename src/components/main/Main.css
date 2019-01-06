@@ -1,0 +1,46 @@
+.mainContainer {
+    margin-left: 35pt;
+}
+
+.hotelName {
+    display: inline-block;
+    font-size: 12pt;
+    color: #000000;
+    letter-spacing: 1.1pt;
+    margin-left: 10pt;
+}
+
+.circle {
+    display: inline-block;
+    height: 6pt;
+    width: 6pt;
+    background-color: #24FF00;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.requestsTab {
+    margin-top: 10pt;
+    margin-left: 35pt;
+    height: 70pt;
+    width: 125pt;
+    background-color: #5E7DFC;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.requestsText {
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 12pt;
+}
+
+.numberOfRequestsText {
+    color: #FFFFFF;
+    font-size: 12pt;
+    margin-top: 0pt;
+    margin-left: 12pt;
+}

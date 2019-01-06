@@ -1,0 +1,15 @@
+.topBarText {
+    color: #5E7DFC;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 15pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.topBarDivider {
+    background-color: #D1D1D1;
+    height: 0.5pt;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
