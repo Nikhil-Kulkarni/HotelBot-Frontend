@@ -29,18 +29,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .requestsText {
     color: #FFFFFF;
     font-size: 12pt;
     font-weight: bold;
-    margin-left: 12pt;
+    margin-left: 17pt;
 }
 
 .numberOfRequestsText {
     color: #FFFFFF;
     font-size: 12pt;
     margin-top: 0pt;
-    margin-left: 12pt;
+    margin-left: 17pt;
 }
