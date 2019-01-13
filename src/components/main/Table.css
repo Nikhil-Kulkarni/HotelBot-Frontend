@@ -1,0 +1,55 @@
+.mainTable {
+    margin-left: 12pt;
+}
+
+.mainTableRow {
+    padding-bottom: 25pt;
+    height: 50pt;
+}
+
+.actionsRow {
+    padding-top: 8pt;
+    padding-left: 100pt;
+}
+
+.roomNumberRow {
+    color: #5E7DFC;
+    font-weight: bold;  
+    padding-top: 8pt;
+    padding-left: 85pt;
+}
+
+.nameRow {
+    padding-top: 8pt;
+    padding-left: 100pt;
+}
+
+.itemRow {
+    padding-top: 8pt;
+    padding-left: 100pt;
+}
+
+.amountDiv {
+    display: inline-block;
+    background-color: #F19710;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    color: white;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    border-radius: 6%;
+    font-weight: bold;
+    margin-right: 4pt;
+}
+
+.itemDiv {
+    display: inline-block;
+    background-color: #7DE0FF;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    color: white;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    border-radius: 6%;
+    font-weight: bold;
+}

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ReactTable from 'react-table';
-import "react-table/react-table.css";
+import Table from './Table';
 import './Requests.css';
 
 class Requests extends Component {
@@ -15,25 +14,25 @@ class Requests extends Component {
             requests,
         } = this.props;
 
+        const columns = [
+            {
+                header: "Room Number",
+                accessor: "room_number"
+            },
+            {
+                header: "Name",
+                accessor: "name"
+            },
+            {
+                multiComponent: true,
+                header: "request",
+                accessors: ["amount", "item"]
+            }
+        ];
+
         return (
             <div className='requestsContainer'>
-                <ReactTable
-                    data={requests}
-                    columns={[
-                        {
-                            Header: "Room Number",
-                            accessor: "room_number"
-                        },
-                        {
-                            Header: "Name",
-                            accessor: "name"
-                        },
-                        {
-                            Header: "Request",
-                            accessor: "item"
-                        }
-                    ]}
-                className="requestsTable -highlight"/>
+                <Table data={requests} columns={columns}/>
             </div>
         );
     }
